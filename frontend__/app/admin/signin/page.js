@@ -1,7 +1,7 @@
-import { SignIn } from "@/components/signin"
+import Signin from "@/components/signin"
 
 export default function() {
     return (
-        <SignIn />
+        <Signin />
     )
 }

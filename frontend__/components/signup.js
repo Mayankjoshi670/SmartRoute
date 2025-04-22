@@ -1,8 +1,8 @@
 "use client"
 
-import SubmitButton from "./submit"
+import SubmitButton from "@/components/submit"
 
-export default function Signin() {
+export default function Signup() {
     return (
         <div className="h-screen flex justify-center flex-col">
             <div className="flex justify-center items-center mb-10 bg-gradient-to-br to-indigo-10 p-4">
@@ -18,15 +18,16 @@ export default function Signin() {
                 <div>
                     <div className="px-10">
                         <div className="text-3xl font-extrabold">
-                            Sign In
+                            Sign Up
                         </div>
                     </div>
                         <div className="pt-2">
-                            <LabelledInput label="Username" placeholder="Enter the name" />
-                            <LabelledInput label="Password" type="password" placeholder="Enter the password" />
-                            <div className="flex justify-center">
-                                <SubmitButton />
-                            </div> 
+                            <LabelledInput label="Username" placeholder="Enter username" />
+                            <LabelledInput label="First Name" placeholder="Enter the first Name" />
+                            <LabelledInput label="Last Name" placeholder="Enter the last Name" />
+                            <LabelledInput label="Enter the password" type={"password"} placeholder="Enter the password" />
+                            <LabelledInput label="Password" type={"password"} placeholder="Confirm the password" />
+                            <div className="display flex align-center justify-center"><SubmitButton /></div>
                         </div>
                     </div>
                 </a>
