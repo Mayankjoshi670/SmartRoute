@@ -1,5 +1,7 @@
 ## Network dham network congestion 
  We are building a scalable solution for kainchi dham traffic congestion problem using Our core algorithm that is discussed betwo 
+# Complete Archi: 
+![complete](https://github.com/user-attachments/assets/f31356fb-7537-4340-88ad-2a3921789d37)
 
  # High level design [HLD]
  ![HLD](https://github.com/user-attachments/assets/020c83c8-f8e3-42ef-a938-e173bf57fcb0)
